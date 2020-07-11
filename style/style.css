@@ -315,6 +315,12 @@ a:visited{
     .bar{
         height: 12px;
     }
+    .flex{
+        justify-content: center;
+    }
+    .title{
+        text-align: center;
+    }
 }
 
 
