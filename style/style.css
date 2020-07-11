@@ -236,15 +236,20 @@ a:visited{
     font-weight: normal;
     font-size: 1.5em;
     line-height: 1.5em;
+}   
+.logos{
+    width: 90%;
+    display: flex;
+    justify-content: center;
 }
-
 .logo-item{
-    padding-left: 1%;
-    padding-right: 1%;
+    margin-left:12px;
+    margin-right:12px;
+
 
 }
 .logo-item:hover{
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 
