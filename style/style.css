@@ -268,7 +268,9 @@ a:visited{
     .img_text_r{
     font-size: 2em;
     padding-left:6px;
-
+    }
+    .hero-img-hobbies{
+        width: 75%; 
     }
     .img_text_l{
         font-size: 2em;
@@ -283,7 +285,9 @@ a:visited{
 @media only screen and (max-width: 600px) {
     .main-padding{
         width: 90%;
-
+    }
+    .hero-img-hobbies{
+        width: 90%; 
     }
     .img_text_r{
         font-size: 1.5em;
