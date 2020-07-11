@@ -215,7 +215,9 @@ a:visited{
     animation: skl-50 2s;
 }
 
-
+#retainable-rss-embed{
+    width: 90%;
+}
 @keyframes skl-90{
     0%{
         width: 0%;
