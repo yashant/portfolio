@@ -33,6 +33,10 @@ h1{
 .margin-btm-10{
     margin-bottom: 15px;
 }
+.margin-top-20{
+    margin-top: 70px;
+    margin-bottom:20px;
+}
 
 /* Navigation bar */
 .skill-title{
@@ -153,10 +157,9 @@ a:visited{
 .flex{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
 }
 .project-block{
-    text-align: center;
     width: 20%;
     flex-basis: 200px;
     border-radius: 20px;
