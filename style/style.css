@@ -221,9 +221,33 @@ a:visited{
     animation: skl-50 2s;
 }
 
-#retainable-rss-embed{
-    width: 90%;
+.footer{
+    margin-top: 150px;
+    background: #7F8991;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+.footer-text{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+.logo-item{
+    padding-left: 1%;
+    padding-right: 1%;
+
+}
+.logo-item:hover{
+    transform: scale(1.1);
+}
+
+
 @keyframes skl-90{
     0%{
         width: 0%;
