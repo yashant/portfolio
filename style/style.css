@@ -86,7 +86,8 @@ a:visited{
 }
 .hero-img-hobbies{
     width: 50%; 
-    margin: auto;   
+    margin: auto; 
+    display: block;  
 }
 .hero-img-projects{
     width: 30%; 
