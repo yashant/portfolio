@@ -44,6 +44,11 @@ function showDevSkills() {
 
                 </div>
             </div>
+            <div class="content main-padding">
+            <p>Okay okay. I agree. Using progress bar for skills is not really a good idea anymore. However, I love the animation so much.
+            </p>
+           
+        </div>
 
     `;
 
@@ -68,6 +73,7 @@ function showDisSkills() {
 
     div.innerHTML = `
     <a name="skills"></a>
+    <section class="skills">
             <h1 class="title"> SKILLS </h1>
             <div class="margin-btm-10">
                 <span class="skill-title">Figma</span>
@@ -106,7 +112,12 @@ function showDisSkills() {
 
                 </div>
             </div>
-
+            <div class="content main-padding">
+            <p>Okay okay. I agree. Using progress bar for skills is not really a good idea anymore. However, I love the animation so much.
+            </p>
+           
+        </div>
+        </section>
 
     `;
 

@@ -37,6 +37,25 @@ h1{
     margin-top: 70px;
     margin-bottom:20px;
 }
+.margin-left-20{
+    margin-left: 5%;
+}
+.margin-right-20{
+
+    margin-right:5%;
+}
+
+.btn-underline{
+    border-bottom:1px solid;
+    cursor: pointer;
+    transition: border-bottom 0.5ms;
+}
+.btn-underline:hover{
+text-underline-offset: 50%;
+    border-bottom:2px solid;
+
+}
+
 
 /* Navigation bar */
 .skill-title{
@@ -51,6 +70,8 @@ h1{
     justify-content: space-between;
     font-size: 1.5em;
     margin-top:30px;
+    margin-bottom:80px;
+
 }
 
 
@@ -74,7 +95,12 @@ a:visited{
   }
 
 .content{
-    margin-top: 30px;
+    font-size: 28px;
+    line-height: 150%;
+    margin-top: 80px;
+    text-align: center;
+    color:#7F8991;
+
 }
 /* Main container */
 
@@ -115,6 +141,8 @@ a:visited{
 }
 .title{
     font-size:2em;
+    line-height: 120%;
+
 }
 .img_text_r{
     padding-left:15px;
@@ -154,18 +182,29 @@ a:visited{
 .cta-button:hover{
     background-color: rgb(40, 52, 73);
 }
+.flex-center{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 .flex{
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
 }
+.shiny:hover{
+    background-color:#EE6382;
+}
+
 .project-block{
     text-align: center;
     width: 20%;
     flex-basis: 200px;
     border-radius: 20px;
     border: 5px solid rgb(207, 206, 206);
-    margin:5%;    
+    margin: 5%;   
+    font-size:16px; 
 }
 .project-block:hover{
     transition-duration: 0.5s;
@@ -190,6 +229,15 @@ a:visited{
 
 .skills{
     margin-bottom: 30px;
+    color:#7F8991;
+
+  }
+.red-idle{
+    color:#EE6382;
+
+}
+  .red:hover{
+     color:#EE6382;
   }
 .bar{
     width: 100%;
