@@ -2,11 +2,7 @@
 function showDevSkills() {
     let v = document.getElementById("dev");
     let s = document.getElementById("dis");
-    v.classList.add("disabled");
-    s.classList.remove("disabled");
 
-    document.querySelector(".img_text_l").style.borderLeft = "5px solid rgb(207, 206, 206)";
-    document.querySelector(".img_text_r").style.borderLeft = "5px solid #7F8991";
 
     const div = document.createElement('div');
 
@@ -68,10 +64,6 @@ function showDevSkills() {
 function showDisSkills() {
     let v = document.getElementById("dev");
     let s = document.getElementById("dis");
-    s.classList.add("disabled");
-    v.classList.remove("disabled");
-    document.querySelector(".img_text_r").style.borderLeft = "5px solid rgb(207, 206, 206)";
-    document.querySelector(".img_text_l").style.borderLeft = "5px solid #7F8991";
 
     const div = document.createElement('div');
 

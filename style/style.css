@@ -112,6 +112,115 @@ a:visited{
 
 }
 /* Main container */
+#Developer:hover #Blink1{
+    animation: disappear 1600ms infinite;
+}
+#Developer:hover #Blink2{
+    animation: disappear2 2400ms infinite;
+}
+#Developer:hover #Blink3{
+    animation: disappear3 1000ms infinite;
+}
+#Developer:hover #Blink4{
+    animation: disappear4 4000ms infinite;
+}
+#Developer:hover #Cloud{
+    animation: sway 5s infinite;
+}
+
+
+#Designer:hover #Love{
+    animation: sway 5s infinite
+}
+
+
+@keyframes sway{
+0%{
+    transform: translate(0);
+    transform: translateY(0);
+
+}
+
+20%{
+
+    transform: translate(4px);
+    transform: translateY(-4px);
+
+}
+
+80%{
+    transform: translate(-4px);
+    transform: translateY(2px);
+
+
+}
+100%{
+    transform: translate(0);
+    transform: translateY(0);
+
+
+}
+}
+
+@keyframes disappear{
+    0%{
+        opacity: 1
+    }
+    25%{
+        opacity: 0.5    }
+    50%{
+        opacity: 0.2    }
+    75%{
+        opacity: 0.5    }
+    100%{
+        opacity: 0.2    }
+
+}
+
+@keyframes disappear2{
+    0%{
+        opacity: 1
+    }
+    25%{
+        opacity: 0.5    }
+    50%{
+        opacity: 0.8    }
+    75%{
+        opacity: 0.5    }
+    100%{
+        opacity: 1    }
+
+}
+@keyframes disappear3{
+    0%{
+        opacity: 1
+    }
+    25%{
+        opacity: 0.8  }
+    50%{
+        opacity: 0.6    }
+    75%{
+        opacity: 0.4    }
+    100%{
+        opacity: 0    }
+
+}
+@keyframes disappear4{
+    0%{
+        opacity: 1
+    }
+    25%{
+        opacity: 0    }
+    50%{
+        opacity: 0.8    }
+    75%{
+        opacity: 0.2    }
+    100%{
+        opacity: 0.5    }
+
+}
+
+
 
 .main-container{
     margin-top: 120px;
@@ -137,12 +246,12 @@ a:visited{
     margin-top: 35px;
     font-family: 'Unica One', cursive;
     display: flex;
-    justify-content: space-between;
+    justify-content: Center;
 }
 .img_text_l{
     margin-left: -18px;
     padding:15px;
-    border-left: 5px solid #7F8991;
+    /* border-left: 5px solid #7F8991; */
     writing-mode: vertical-lr;
     font-size:4em;
     transform:rotate(180deg);
@@ -155,7 +264,7 @@ a:visited{
 }
 .img_text_r{
     padding-left:15px;
-    border-left: 5px solid #7F8991;
+    /* border-left: 5px solid #7F8991; */
     writing-mode: vertical-rl;
     font-size:4em;
     transform:rotate(360deg);
