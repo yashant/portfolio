@@ -45,9 +45,15 @@ function showDevSkills() {
                 </div>
             </div>
             <div class="content main-padding">
-            <p>Okay okay. I agree. Using progress bar for skills is not really a good idea anymore. However, I love the animation so much. I couldn't help.
+            <p>Okay okay. I agree. Using progress bar for skills is not really a good idea.
             </p>
-           
+            <p>
+            Think I am not really good at C?
+        </p>
+        <p>
+            <a class="red" href=" mailto:yashantgyawali@gmail.com" target="#">Touch
+                here</a> and ask. I swear I will answer honestly.
+        </p>          
         </div>
 
     `;
@@ -113,9 +119,14 @@ function showDisSkills() {
                 </div>
             </div>
             <div class="content main-padding">
-            <p>Okay okay. I agree. Using progress bar for skills is not really a good idea anymore. However, I love the animation so much. I couldn't help.
-            </p>
-           
+            <p>Okay okay. I agree. Using progress bar for skills is not really a good idea.
+            <p>
+            Think I am not really good at drawing Sketches?
+        </p>
+        <p>
+            <a class="red" href=" mailto:yashantgyawali@gmail.com" target="#">Touch
+                here</a> and ask. I swear I will answer honestly.
+        </p>
         </div>
         </section>
 
