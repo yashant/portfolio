@@ -87,6 +87,7 @@ text-underline-offset: 50%;
 
 a{
     text-decoration: none;
+    color:#B1B1B1;
 }
 a:hover{
     text-decoration: none;
