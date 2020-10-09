@@ -167,8 +167,8 @@ a:visited{
     
     50%{
     
-        transform: translate(4px);
-        transform: translateY(-4px);
+        transform: translate(8px);
+        transform: translateY(-8px);
     
     }
     100%{
