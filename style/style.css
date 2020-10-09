@@ -112,27 +112,71 @@ a:visited{
 
 }
 /* Main container */
-#Developer:hover #Blink1{
+#Blink1{
     animation: disappear 1600ms infinite;
 }
-#Developer:hover #Blink2{
+#Blink2{
     animation: disappear2 2400ms infinite;
 }
-#Developer:hover #Blink3{
+#Blink3{
     animation: disappear3 1000ms infinite;
 }
-#Developer:hover #Blink4{
+#Blink4{
     animation: disappear4 4000ms infinite;
 }
-#Developer:hover #Cloud{
+#Cloud{
     animation: sway 5s infinite;
 }
 
 
-#Designer:hover #Love{
-    animation: sway 5s infinite
+#Love{
+    animation: sway 4s infinite;
 }
 
+#Bubble{
+    animation: move 2s infinite;
+}
+#Bubble1{
+    animation: move 3.2s infinite;
+}
+#Bubble2{
+    animation: move 4.2s infinite;
+}
+#Bubble3{
+    animation: move 3s infinite;
+}
+#Bubble4{
+    animation: move 2s infinite;
+}
+#Bubble5{
+    animation: move 2.9s infinite;
+}
+#Bubble6{
+    animation: move 5s infinite;
+}
+#Bubble7{
+    animation: move 4s infinite;
+}
+
+@keyframes move{
+    0%{
+        transform: translate(0);
+        transform: translateY(0);
+    
+    }
+    
+    50%{
+    
+        transform: translate(4px);
+        transform: translateY(-4px);
+    
+    }
+    100%{
+        transform: translate(0);
+        transform: translateY(0);
+    }
+    
+}
 
 @keyframes sway{
 0%{
@@ -141,18 +185,10 @@ a:visited{
 
 }
 
-20%{
+50%{
 
-    transform: translate(4px);
+    transform: translateX(4px);
     transform: translateY(-4px);
-
-}
-
-80%{
-    transform: translate(-4px);
-    transform: translateY(2px);
-
-
 }
 100%{
     transform: translate(0);
@@ -485,10 +521,16 @@ a:visited{
     .title{
         font-size:1.5em;
     }
+    .hero-img{
+        width: 90%;
+    }
 }
 
 @media only screen and (max-width: 600px) {
     .main-padding{
+        width: 90%;
+    }
+    .hero-img{
         width: 90%;
     }
     .hero-img-hobbies{
