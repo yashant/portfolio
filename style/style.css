@@ -113,16 +113,16 @@ a:visited{
 }
 /* Main container */
 #Blink1{
-    animation: disappear 1600ms infinite;
+    animation: disappear 1s infinite;
 }
 #Blink2{
-    animation: disappear2 2400ms infinite;
+    animation: disappear2 1.4ms infinite;
 }
 #Blink3{
-    animation: disappear3 1000ms infinite;
+    animation: disappear3 3s infinite;
 }
 #Blink4{
-    animation: disappear4 4000ms infinite;
+    animation: disappear4 2s infinite;
 }
 #Cloud{
     animation: sway 5s infinite;
