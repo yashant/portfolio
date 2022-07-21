@@ -620,6 +620,9 @@ a:visited {
 }
 
 @media only screen and (max-width: 600px) {
+  .btm-text{
+    font-size: 1.1em;
+  }
   .item{
     margin-left:20px;
     }
