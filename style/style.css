@@ -97,11 +97,11 @@ h1 {
 margin-left:40px;
 }
 
-a {
+a{
   text-decoration: none;
   color: #b1b1b1;
 }
-a:hover {
+.item:hover {
   text-decoration: none;
   color: rgb(255, 255, 255);
 }
