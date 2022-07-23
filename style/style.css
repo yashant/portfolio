@@ -24,6 +24,7 @@ h1 {
   font-size: 14px;
 }
 .blog-container {
+  
   display: flex;
   justify-content: center;
 }
@@ -96,7 +97,9 @@ h1 {
 .item{
 margin-left:40px;
 }
-
+.color-cta{
+  background-color: #ee6382;
+}
 a{
   text-decoration: none;
   color: #b1b1b1;
@@ -126,11 +129,19 @@ a:visited {
 .margin-btm-80 {
   margin-bottom: 80px;
 }
+.link-word{
+text-decoration: underline;
+font-weight: 800;
+cursor: pointer;
+}
+.link-word:hover{
+  color: #ee6382;
 
+}
 .content {
   line-height: 150%;
   text-align: center;
-  color: #7f8991;
+  
   padding-top: 20px;
 }
 /* Main container */
@@ -317,12 +328,16 @@ a:visited {
   transform: rotate(180deg);
   text-align: center;
 }
+
 .title {
   font-family: 'Playfair Display', serif;
   color: rgb(214, 214, 214);
   font-size: 2.7em;
   font-weight: 900;
   line-height: 120%;
+}
+ .light-title{
+  color: #1b2331; 
 }
 .sub-title{
   font-family: 'Space Grotesk', sans-serif;
@@ -423,6 +438,16 @@ a:visited {
 }
 .link-block:hover {
   background-color: rgb(40, 52, 73);
+  cursor: pointer;
+}
+.link-block2 {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  background-color: rgb(243, 242, 242)
+}
+.link-block2:hover {
+  background-color: #ffffff;
   cursor: pointer;
 }
 .btm-text{
