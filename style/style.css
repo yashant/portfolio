@@ -125,8 +125,21 @@ a:visited {
 .padding-top-80 {
   margin-top: 160px;
 }
+.logo:hover{
+  animation: rotatelogo 1s linear infinite;
+}
 
-.margin-btm-80 {
+  @keyframes rotatelogo {
+  0% {
+    transform: rotate(0deg);
+    
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+  .margin-btm-80 {
   margin-bottom: 80px;
 }
 .link-word{
