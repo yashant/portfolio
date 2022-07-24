@@ -92,8 +92,12 @@ h1 {
 }
 .nav-items{
   display: flex;
+}
+.menu-icn{
+  display: none;
 
 }
+
 .item{
 margin-left:40px;
 }
@@ -658,13 +662,40 @@ cursor: pointer;
 }
 
 @media only screen and (max-width: 600px) {
+  .menu-icn{
+    display: block;
+    cursor: pointer;
+  }
+  .menu-icn:hover{
+    fill: #ffffff;
+  }  
+
+  .menu-div:hover .nav-items{
+    display: block;
+    position: fixed;
+    top:40px;
+    right: 0;
+    background-color: #1b2331;
+    box-shadow: 0px 4px 4px #1b2331;
+  }
+
+  .nav-items{
+    display: none;
+    flex-direction: column;
+    /* background-color: white; */
+  }
   .btm-text{
     font-size: 1.1em;
   }
   .item{
-    margin-left:20px;
+    margin-left:40px;
+    margin-right:40px;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+
     }
-      .main-padding {
+  .main-padding {
     width: 90%;
   }
   .hero-img {
